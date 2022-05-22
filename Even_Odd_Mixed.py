@@ -12,3 +12,4 @@ elif(o==len(str(n))):
     print("Odd")
 else:
     print("Mixed")
+    
