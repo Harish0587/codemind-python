@@ -10,4 +10,5 @@ if(s==p):
     print("Spy Number")
 else:
     print("Not Spy Number")
-
+    
+    
