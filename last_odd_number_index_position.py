@@ -1,6 +1,9 @@
 n=int(input())
-arr=list(map(int,input().strip().split()))[:n]
-for i in range(n-1,-1,-1):
+arr=list(map(int,input().split()))
+c=0
+for i in range(n):
     if arr[i]%2!=0:
-        print(i)
-        break
+        c=i
+print(c)        
+        
+        
