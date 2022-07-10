@@ -18,4 +18,3 @@ if t==temp:
     print("Automorphic Number")
 else:
     print("Not an Automorphic Number")
-    
