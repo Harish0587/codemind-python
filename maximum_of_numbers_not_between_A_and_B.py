@@ -1,19 +1,11 @@
 n=int(input())
-arr=list(map(int,input().split()))
-arr.sort()
-#print(arr)
+arr=list(map(int,input().strip().split()))
 a,b=map(int,input().split())
-#print(a,b)
 l=[]
 for i in range(n):
     if arr[i]<a or arr[i]>b:
         l.append(arr[i])
-#print(max(l))
 if len(l)==0:
-    print("-1")
+    print('-1')
 else:
     print(max(l))
-    
-
-        
-        
