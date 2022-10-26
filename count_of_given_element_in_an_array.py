@@ -1,8 +1,8 @@
 n=int(input())
-arr=list(map(int,input().split()))
-x=int(input())
+arr=list(map(int,input().strip().split()))
+z=int(input())
 c=0
 for i in arr:
-    if i==x:
-        c+=1
-print(c)
+    if z==i:
+        c=c+1
+print(c)        
