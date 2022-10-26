@@ -1,3 +1,3 @@
 n=int(input())
-l=list(map(int,input().strip().split()))
+l=list(map(int,input().split()))
 print(min(l))
