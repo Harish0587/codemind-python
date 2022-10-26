@@ -1,11 +1,11 @@
 n=int(input())
 arr=list(map(int,input().split()))
 a,b=map(int,input().split())
-f=0
-for i in arr:
-    if i<a or i>b:
-        print(i,end=" ")
-        f=1
-if f==0:
+l=[]
+for i in range(n):
+    if arr[i]<a or arr[i]>b not in l:
+        l.append(arr[i])
+if len(l)==0:
     print("-1")
-      
+else:
+    print(*l)
